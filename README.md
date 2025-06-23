@@ -5,7 +5,7 @@ Raydium-Amm-v3 is an open-sourced concentrated liquidity market maker (CLMM) pro
 ## Environment Setup
 1. Install `Rust`
 
-   ```shell
+  Seashells
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
    rustup default 1.79.0
    ```
@@ -31,25 +31,4 @@ Raydium-Amm-v3 is an open-sourced concentrated liquidity market maker (CLMM) pro
 
 Clone the repository and enter the source code directory.
 ```
-git clone https://github.com/raydium-io/raydium-amm-v3
-cd raydium-amm-v3
-```
-
-Build
-```
-anchor build
-```
-After building, the smart contract files are all located in the target directory.
-
-Deploy
-```
-anchor deploy
-```
-Attention, check your configuration and confirm the environment you want to deploy.
-
-# CPI
-
-An example of calling clmm can be found [here](https://github.com/raydium-io/raydium-cpi-example/tree/master/clmm-cpi)
-
-# License
-The source code is [licensed](https://github.com/raydium-io/raydium-clmm/blob/master/LICENSE) under Apache 2.0.
+git clone https://github.com/raydium-i
